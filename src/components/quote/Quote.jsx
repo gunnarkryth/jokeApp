@@ -24,11 +24,14 @@ export const Quote = () => {
         Authorization: api_key,
       },
     })
-      .then((response) => {
-        setBackgroundImage(response.url);
+      .then((response) => response.json()).then((data) => {
+       const backgroundImage = 
       })
       .catch((error) => console.error("Error fetching image.", error));
   }, []);
+
+console.log(backgroundImage);
+
 
   return (
     <hgroup
