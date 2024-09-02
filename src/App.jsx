@@ -1,11 +1,12 @@
+
 import "./assets/styles/App.scss";
 import { Wrapper } from "./components/Wrapper/Wrapper";
-import { Atom } from "./components/Atom/Atom";
+import { Quote } from "./components/quote/Quote";
 
 function App() {
   return (
     <Wrapper>
-      <Atom></Atom>
+      <Quote />
     </Wrapper>
   );
 }
