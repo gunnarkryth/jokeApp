@@ -6,7 +6,7 @@ export const Quote = () => {
   const [backgroundImage, setBackgroundImage] = useState("");
 
   const quoteUrl = `https://dummyjson.com/quotes`;
-  const api_key = "NAXN6uYOpYGfldXoUITX6XYKRbB0Mi6uR8lZyF7UfI53tSmkEgsM8IJ0";
+  const api_key = "";
   const pexelsUrl = `https://api.pexels.com/v1/search?query=nature&per_page=15&size=small`;
 
   useEffect(() => {
